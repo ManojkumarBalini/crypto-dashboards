@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: crypto-dashboard
+    plan: free
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: REACT_APP_COINGECKO_API_KEY
+        value: CG-KLTYXx3o5HSRX7zGPa65FoZ3
+      - key: REACT_APP_API_BASE_URL
+        value: https://api.coingecko.com/api/v3
