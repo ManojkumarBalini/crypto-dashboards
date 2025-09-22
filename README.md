@@ -41,10 +41,6 @@ npm start
 
 Visit `http://localhost:3000` in your browser to view the dashboard.
 
-## 📸 Screenshots
-
-![Dashboard Screenshot](https://github.com/ManojkumarBalini/crypto-dashboards/blob/main/public/screenshot.png)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please fork the repository, create a new branch, make your changes, and submit a pull request.
@@ -52,4 +48,5 @@ Contributions are welcome! Please fork the repository, create a new branch, make
 ## 📄 License
 
 This project is licensed under the MIT License.
+
 
